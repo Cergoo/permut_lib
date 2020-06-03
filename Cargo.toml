@@ -1,0 +1,12 @@
+[package]
+name = "permut_lib"
+version = "0.1.0"
+authors = ["prof"]
+edition = "2018"
+repository = "https://github.com/Cergoo/permut_lib"
+license = "BSD-3-Clause-Clear"
+categories = ["algorithms"]
+keywords = ["permutation"]
+description ="Simple function to generate permutations on a dictionry of a u8 chars set. I used it for generate unic Items into my proc macros."
+
+[dependencies]
