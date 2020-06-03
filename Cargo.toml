@@ -7,6 +7,8 @@ repository = "https://github.com/Cergoo/permut_lib"
 license = "BSD-3-Clause-Clear"
 categories = ["algorithms"]
 keywords = ["permutation"]
+documentation = "https://docs.rs/permut_lib"
+readme = "README.md"
 description ="Simple function to generate permutations on a dictionry of a u8 chars set. I used it for generate unic Items into my proc macros."
 
 [dependencies]
