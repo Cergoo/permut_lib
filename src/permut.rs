@@ -1,14 +1,14 @@
-pub const CHARS_CUPS_LATIN: &[u8] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".as_bytes();
+pub const CHARS_CAPS_LATIN: &[u8] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".as_bytes();
 pub const CHARS_LOW_LATIN: &[u8] = "abcdefghijklmnopqrstuvwxyz".as_bytes();
 
-/// Universal function for generate unic sequences of a u8 chars
+/// Universal function for generate unic sequences of u8 chars
 /// # Parameters
 /// - 'chars' some u8 dictonary set
 /// - 'count' count elements to must be generated
 /// # Examples
 /// ```
 /// use permut_lib::permut::*;
-/// create_permut(CHARS_CUPS_LATIN, 195); // result: "A", "B", "C", ... , "AA", "AB" ...  
+/// create_permut(CHARS_CAPS_LATIN, 195); // result: "A", "B", "C", ... , "AA", "AB" ...  
 /// ```
 pub fn create_permut(chars: &[u8], count: usize) -> Vec<Vec<u8>> {
     let base: (usize, usize) = (count / chars.len(), count % chars.len());

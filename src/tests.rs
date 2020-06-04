@@ -60,7 +60,7 @@ fn create_permut_t1() {
         "BB".as_bytes(),
     ];
 
-    let r = create_permut(CHARS_CUPS_LATIN, 54);
+    let r = create_permut(CHARS_CAPS_LATIN, 54);
     let r1: Vec<&[u8]> = r.iter().map(|a| a.as_slice()).collect();
 
     assert_eq!(t1, r1);
